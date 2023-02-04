@@ -2339,6 +2339,24 @@ components:
           $ref: '#/components/schemas/NamedAPIResource'
     Pokemon:
       type: object
+      required:
+        - abilities
+        - base_experience
+        - forms
+        - game_indices
+        - height
+        - held_items
+        - id
+        - is_default
+        - location_area_encounters
+        - moves
+        - name
+        - order
+        - species
+        - sprites
+        - stats
+        - types
+        - weight
       properties:
         abilities:
           type: array
