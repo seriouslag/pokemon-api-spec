@@ -1879,17 +1879,17 @@ paths:
                 $ref: '#/components/schemas/ListResponse'
       tags:
       - pokemon
-  /v2/pokemon/{id}/:
+  /v2/pokemon/{name}/:
     get:
       operationId: pokemon_read
       parameters:
       - in: path
-        name: id
+        name: name
         required: true
         schema:
-          description: A unique integer value identifying this pokemon.
-          title: ID
-          type: integer
+          description: The name of this pokemon.
+          title: name
+          type: string
       responses:
         default:
           description: Default response
