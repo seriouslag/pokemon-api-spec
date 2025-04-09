@@ -4,7 +4,7 @@ info:
     This is a RESTful API wrapper around the **PokéAPI v2**. The API is hosted at
     [https://pokeapi.co](https://pokeapi.co) and is free to use.
   title: PokéAPI v2
-  version: '2'
+  version: '3'
 servers:
 - url: 'https://pokeapi.co/api'
 paths:
