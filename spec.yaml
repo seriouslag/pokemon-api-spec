@@ -1889,11 +1889,11 @@ paths:
         schema:
           description: The name or ID of the pokemon.
           title: nameOrId
-           oneOf:
-              - type: string
-              - type: number
-                minimum: 1
-                exclusiveMinimum: true
+          oneOf:
+            - type: string
+            - type: number
+              minimum: 1
+              exclusiveMinimum: true
       responses:
         default:
           description: Default response
